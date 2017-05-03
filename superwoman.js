@@ -13,8 +13,8 @@ function womanShow(){
 	for (var wx = 0; wx <= width; wx+=womenDist) {
 		for (var wy = 0; wy <=height; wy+=womenDist) {
 			if (((wx+wy)/womenDist)%2==0) {
-				var xLoc =wx+80;
-				var yLoc = wy+80;
+				var xLoc =wx+40;
+				var yLoc = wy+110;
 				var randomColor = color (random(100,200),random(255),random(255)); // for the diversity theme!
 				var womenN = new SuperWoman(createVector(xLoc,yLoc),randomColor);
 				womenN.superwomanStart();
